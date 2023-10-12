@@ -26,5 +26,8 @@ class TestGetGitHubRepos(unittest.TestCase):
             {"Repo": "repo2", "Number of commits": 5}
         ])
 
+my_brand()
+
 if __name__ == '__main__':
+    print('Running unit tests')
     unittest.main()
