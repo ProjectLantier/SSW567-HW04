@@ -1,6 +1,6 @@
 from datetime import date
 from unittest.mock import patch
-from .HW4a import get_github_repos, get_github_user_commits_count, get_user_repositories_with_commits
+from HW4a import get_github_repos, get_github_user_commits_count, get_user_repositories_with_commits
 import unittest
 
 def my_brand():
